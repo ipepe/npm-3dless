@@ -1,0 +1,29 @@
+{
+  "name": "3dless",
+  "version": "0.1.0",
+  "description": "bin tool to reduce the amount of vertices in mesh",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ipepe/npm-3dless.git"
+  },
+  "keywords": [
+    "mesh"
+  ],
+  "author": "Patryk Ptasiński",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ipepe/npm-3dless/issues"
+  },
+  "homepage": "https://github.com/ipepe/npm-3dless#readme",
+  "bin": {
+    "threedless": "cli.js",
+    "3dless": "cli.js"
+  },
+  "dependencies": {
+    "three.js": "^0.77.1"
+  }
+}
